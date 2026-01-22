@@ -45,7 +45,7 @@ AV Organizer 是一个 OpenCode skill，用于自动整理 AV 视频收藏：
 
 ```bash
 # 克隆仓库
-git clone https://github.com/394861919/av-organizer.git
+git clone https://github.com/yuy1guo/av-organizer.git
 cd av-organizer
 ```
 
@@ -55,17 +55,17 @@ cd av-organizer
 
 ```bash
 # 预览所有文件（不实际修改）
-python scripts/simple_organizer.py "E:\迅雷下载" --dry-run
+python scripts/simple_organizer.py "<your-video-path>" --dry-run
 
 # 只处理第一个文件（测试）
-python scripts/simple_organizer.py "E:\迅雷下载" --dry-run --first-only
+python scripts/simple_organizer.py "<your-video-path>" --dry-run --first-only
 ```
 
 #### 正式运行
 
 ```bash
 # 整理所有文件
-python scripts/simple_organizer.py "E:\迅雷下载"
+python scripts/simple_organizer.py "<your-video-path>"
 ```
 
 ### 命令行选项
@@ -80,7 +80,7 @@ python scripts/simple_organizer.py "E:\迅雷下载"
 ### 整理前
 
 ```
-E:\迅雷下载\
+<your-video-path>\
 ├── SSIS-001.mp4
 ├── IPX-123.mp4
 ├── Folder/
@@ -91,7 +91,7 @@ E:\迅雷下载\
 ### 整理后
 
 ```
-E:\迅雷下载\
+<your-video-path>\
 ├── s1\
 │   └── [SSIS-001]-[Beautiful Girl].mp4
 ├── ideapocket\
@@ -163,5 +163,4 @@ E:\迅雷下载\
 
 ## 📧 联系方式
 
-- GitHub: [@394861919](https://github.com/394861919)
-- Email: 394861919@qq.com
+- GitHub: [https://github.com/yuy1guo](https://github.com/yuy1guo)

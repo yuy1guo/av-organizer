@@ -45,7 +45,7 @@ AV Organizer is an OpenCode skill that automatically organizes your AV video col
 
 ```bash
 # Clone the repository
-git clone https://github.com/394861919/av-organizer.git
+git clone https://github.com/yuy1guo/av-organizer.git
 cd av-organizer
 ```
 
@@ -55,17 +55,17 @@ cd av-organizer
 
 ```bash
 # Preview all files (no actual changes)
-python scripts/simple_organizer.py "E:\Downloads" --dry-run
+python scripts/simple_organizer.py "<your-video-path>" --dry-run
 
 # Process only first file (testing)
-python scripts/simple_organizer.py "E:\Downloads" --dry-run --first-only
+python scripts/simple_organizer.py "<your-video-path>" --dry-run --first-only
 ```
 
 #### Execute
 
 ```bash
 # Organize all files
-python scripts/simple_organizer.py "E:\Downloads"
+python scripts/simple_organizer.py "<your-video-path>"
 ```
 
 ### Command Options
@@ -80,7 +80,7 @@ python scripts/simple_organizer.py "E:\Downloads"
 ### Before
 
 ```
-E:\Downloads\
+<your-video-path>\
 ├── SSIS-001.mp4
 ├── IPX-123.mp4
 ├── Folder/
@@ -91,7 +91,7 @@ E:\Downloads\
 ### After
 
 ```
-E:\Downloads\
+<your-video-path>\
 ├── s1\
 │   └── [SSIS-001]-[Beautiful Girl].mp4
 ├── ideapocket\
@@ -163,5 +163,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-- GitHub: [@394861919](https://github.com/394861919)
-- Email: 394861919@qq.com
+- GitHub: [https://github.com/yuy1guo](https://github.com/yuy1guo)
